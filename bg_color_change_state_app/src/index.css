@@ -1,0 +1,42 @@
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Dynamic background color classes */
+.container.white {
+  background-color: white;
+}
+
+.container.red {
+  background-color: red;
+}
+
+.container.green {
+  background-color: green;
+}
+
+.container.orange {
+  background-color: orange;
+}
+
+.title {
+  color: black;
+  font-size: 2rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
